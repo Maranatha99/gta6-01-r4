@@ -1,55 +1,58 @@
 # SOLMAR BAY — an open-world crime game
 
-[![make.fun bounty gta6-01](https://make.fun/api/badge/bounty/gta6-01)](https://make.fun/c/gta6-01?ref=s11m3687)
-[![make.fun rank](https://make.fun/api/badge/rank/gta6-01)](https://make.fun/c/gta6-01?ref=s11m3687)
-[![make.fun reward](https://make.fun/api/badge/reward/gta6-01)](https://make.fun/c/gta6-01?ref=s11m3687)
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/Maranatha99/gta6-01-r4/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/Maranatha99/gta6-01-r4/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
 
-Riko Vale is out of the county lockup. The bay still owes him — and Mara Solis
-still owns his debt. **Six jobs. One way out.**
+Riko Vale just walked out of the county lockup. The bay still owes him — and
+Mara Solis still holds his debt. **Six jobs. One way out.**
 
-SOLMAR BAY is a complete open-world crime game in the spirit of GTA 6, built
-from scratch for the make.fun **gta6-01** bounty. It runs entirely offline from
-static files: open `game/index.html` in a desktop browser and play. No network
-requests, no external assets, no Rockstar content — every name, character, city
-block, car and sound is original.
+SOLMAR BAY is a full open-world crime game in the spirit of GTA 6, built from
+nothing for the make.fun **gta6-01** bounty — see the bounty at
+[make.fun/bounty/gta6-01](https://make.fun/bounty/gta6-01?ref=s11m3687)
+(referral `s11m3687`). It plays completely offline from static files: open
+`game/index.html` in a desktop browser and you are in. No network calls, no
+outside assets, no Rockstar material — every name, character, street, vehicle
+and sound is original work.
 
 ## The city
 
-Solmar Bay is a sun-soaked coastal city on a road grid: downtown glass towers,
-house-lined streets, parks, parking lots, a boardwalk, a beach and a marina.
-Traffic follows the roads with right-hand lanes, pedestrians walk the
-sidewalks and run from gunfire, and the whole city is alive whether or not
-you are looking at it.
+Solmar Bay is a bright coastal city laid out on a road grid: glass towers
+downtown, quiet residential streets, parks, parking lots, a boardwalk, a beach
+and a marina. Traffic keeps to the right-hand lanes, pedestrians stroll the
+sidewalks and scatter when shots are fired, and the whole place keeps moving
+whether you are watching it or not.
 
-## Play
+## How to play
 
-- **On foot** — WASD to walk, mouse to aim, click to shoot, R to reload.
-- **Driving** — walk up to any car and press **E** to steal it. W/S accelerate
-  and brake, A/D steer. Faster cars handle better; damaged cars smoke.
-- **Wanted** — stealing, hitting pedestrians, shooting and killing cops raise
-  your stars (1–5). Police Interceptors chase and ram you; at 3 stars and up,
-  foot cops hunt you down and shoot. Lay low out of sight and the heat cools.
-  Get cornered on foot and you are **BUSTED**; run out of health and you are
+- **On foot** — WASD to move, mouse to aim, click to fire, R to reload.
+- **Driving** — approach any car and press **E** to take it. W/S drive and
+  brake, A/D steer. Quicker cars handle better; a battered car starts to
+  smoke.
+- **Wanted level** — theft, hitting pedestrians, shooting and killing officers
+  raise your stars (1–5). Police Interceptors chase and ram you; from 3 stars
+  up, officers on foot hunt you down and shoot. Stay out of sight and the heat
+  fades. Cornered on foot, you are **BUSTED**; out of health, you are
   **WASTED**.
 - **Missions** — follow the yellow **M**. Six story jobs for Mara Solis:
-  1. **First Wheels** — steal a car, bring it to the garage ($400)
-  2. **Heat Wave** — lose a 3-star chase at the hideout ($600)
-  3. **Package Run** — three deliveries against the clock ($800)
-  4. **Getaway Driver** — pick up Mara, drive her to the safehouse ($1,000)
-  5. **Turbo Heist** — steal the Vortex GT from a guarded lot ($1,500)
-  6. **Big Score** — crack the bank vault, escape 5 stars to the marina boat ($5,000)
-- **Extras** — stashed cash and health packs around the city, garage repairs
-  ($50), a live minimap with police and objective blips, an off-screen
-  objective arrow, and a save that keeps your money and finished jobs between
-  visits (localStorage).
+  1. **First Wheels** — take a car and deliver it to the garage ($400)
+  2. **Heat Wave** — shake a 3-star pursuit at the hideout ($600)
+  3. **Package Run** — three drops against the clock ($800)
+  4. **Getaway Driver** — collect Mara and drive her to the safehouse ($1,000)
+  5. **Turbo Heist** — lift the Vortex GT from a guarded lot ($1,500)
+  6. **Big Score** — crack the bank vault, then outrun 5 stars to the marina boat ($5,000)
+- **Extras** — hidden cash and health packs around town, garage repairs for
+  $50, a live minimap with police and objective blips, an arrow pointing to
+  off-screen objectives, and a save that remembers your money and completed
+  jobs between visits (localStorage).
 
 ## Sound
 
-Everything is synthesised live with WebAudio: an engine drone that follows
-your speed, a two-tone police siren, gunshots, explosions and a quiet bassline.
-Press **M** to mute. (Browsers only allow audio after a click or keypress.)
+All audio is synthesised live with WebAudio: an engine hum that tracks your
+speed, a two-tone police siren, gunfire, explosions and a soft bassline.
+Press **M** to mute. (Browsers only start audio after a click or keypress.)
 
-## Screens
+## Screenshots
 
 - `1-title.jpg` — the title screen over the living city
 - `2-drive.jpg` — cruising the strip in a stolen sedan
@@ -62,7 +65,7 @@ Press **M** to mute. (Browsers only allow audio after a click or keypress.)
 node serve.ts          # serves game/ on http://localhost:8080
 ```
 
-Hand the entry in (outside the grader, `MAKEFUN_OUTPUT_DIR` stands in for
+To hand the entry in (outside the grader, `MAKEFUN_OUTPUT_DIR` stands in for
 `/output`):
 
 ```sh
