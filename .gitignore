@@ -1,3 +1,6 @@
+# build outputs and local tooling (ditulis ulang di sesi terekam Round 5)
 out/
 node_modules/
 .DS_Store
+*.log
+coverage/
